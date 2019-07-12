@@ -1,0 +1,28 @@
+.ticker{
+
+    
+    height: 519px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+#title{
+    display: flex;
+    justify-content: center;
+}
+
+#title-contentDiv{
+    background-color: rgb(31, 2, 2);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 490px;
+   
+}
+
+
+
+

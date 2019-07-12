@@ -1,0 +1,59 @@
+.message{
+    background-color: black;
+    transition: 3s;
+    height: 150px;
+    width: 500px;
+    border-top: 0.5px solid red;
+  
+    position: relative;
+    top: -1210px;
+    animation: moveDown 1 20s linear;
+    direction: rtl;
+    padding-top: 20px;
+    box-shadow: inset 0 70px 10px -10px rgb(31, 2, 2);
+    padding-right: 10px;
+}
+
+
+
+@keyframes moveDown {
+    100% {top: +200px}
+}
+
+.message-userNameDiv{
+display: flex;
+flex-direction: column;
+margin-right: 5px;
+}
+
+
+.message-userNameDiv label.userName{
+    color:white;
+    font-size: 20px;
+}
+
+.message-userNameDiv label.date{
+    color:red;
+}
+
+.message-contentDiv p {
+    color: white;
+    position: relative;
+    right: 80px;
+    bottom: 36px;
+    max-width: 333px;
+}
+
+.message-userDetails{
+display: flex;
+flex-direction: row;
+
+}
+
+
+img{
+    height: 70px;
+    width: 70px;
+    border: 0.5px solid red;
+}
+
